@@ -26,8 +26,8 @@ public class SettingsConfig {
 	public static final String DATABASE_LOGIN_PASSWORD = "";
 
 	/* Database reference settings */
-	public static final String DATABASE_NAME = "norfolkandway";
-	public static final String DATABASE_SCHEMA = "hobby";
+	public static final String DATABASE_NAME = "xmencollector";
+	public static final String DATABASE_SCHEMA = "itemschema";
 
 	/* Database connection settings */
 	public static final String DATABASE_DRIVER_CLASS_NAME = "org.postgresql.Driver";
