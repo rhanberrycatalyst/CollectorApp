@@ -63,12 +63,12 @@ public class Collectible implements Serializable {
 
 	@ManyToMany(cascade = { CascadeType.MERGE, CascadeType.REFRESH }, fetch = FetchType.EAGER)
 	// creates many to many join table for collectibles and colors
-	@JoinTable(name = "hobby.color_collectible", joinColumns = { @JoinColumn(name = "collectible_id") }, inverseJoinColumns = { @JoinColumn(name = "color_id") })
+	@JoinTable(name = "itemschema.color_collectible", joinColumns = { @JoinColumn(name = "collectible_id") }, inverseJoinColumns = { @JoinColumn(name = "color_id") })
 	private Set<Color> colors = new HashSet<Color>();
 
 	@ManyToMany(cascade = { CascadeType.MERGE, CascadeType.REFRESH }, fetch = FetchType.EAGER)
 	// creates many to many join table for collectibles and keywords
-	@JoinTable(name = "hobby.collectible_keyword", joinColumns = { @JoinColumn(name = "collectible_id") }, inverseJoinColumns = { @JoinColumn(name = "keyword_id") })
+	@JoinTable(name = "itemschema.collectible_keyword", joinColumns = { @JoinColumn(name = "collectible_id") }, inverseJoinColumns = { @JoinColumn(name = "keyword_id") })
 	private Set<Keyword> keywords = new HashSet<Keyword>();
 
 	@NotNull

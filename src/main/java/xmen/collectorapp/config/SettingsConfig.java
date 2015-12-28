@@ -3,8 +3,8 @@ package xmen.collectorapp.config;
 public class SettingsConfig {
 
 	/* Project information */
-	public static final String PROJECT_ROOT_PACKAGE = "pdx.c11.hobby.norfolkandway.api";
-	public static final String PROJECT_CONTROLLER_PACKAGE = "pdx.c11.hobby.norfolkandway.api.controller";
+	public static final String PROJECT_ROOT_PACKAGE = "xmen.collectorapp";
+	public static final String PROJECT_CONTROLLER_PACKAGE = "xmen.collectorapp.controller";
 	
 	/*Hibernate console settings*/
 	public static final boolean HIBERNATE_SHOW_SQL_IN_CONSOLE = true;
