@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+    <title> Hobbyist Collection Page </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="collectible-index.css">
+    <script src="https:code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="add-collectible.js"></script>
+  <body>
+    <h1> Please add your collectible below. </h1>
+    <div id = "add" class = "col-md-12">
+      <div class = "col-md-6" id= "check">
+        <div id = "top">
+        Name: &nbsp;<input type="name" name ="name" id="name">
+        </div>
+        <div id = "middle_top">
+          <label for="type">Type:</label>
+      		<select id="type">
+      			<option value="Rocks">Rocks</option>
+      			<option value="Arrowheads">Arrowheads</option>
+            <option value="Coins">Coins</option>
+      			<option value="Cards">Cards</option>
+            <option value="Stamps">Stamps</option>
+      			<option value="Ornaments">Ornaments</option>
+            <option value="Books">Books</option>
+      			<option value="Pez Dispenser">Pez Dispenser</option>
+      		</select>
+          <select id="condition">
+      			<option value="New">New</option>
+      			<option value="Like New">Like New</option>
+            <option value="Good">Good</option>
+      			<option value="Fair">Fair</option>
+            <option value="Poor">Poor</option>
+      		</select>
+          <div class= "pull-right">
+            <label for="color">Color:</label>
+            <select id="color">
+              <option value="Black">Black</option>
+              <option value="Blue">Blue</option>
+              <option value="Green">Green</option>
+              <option value="Orange">Orange</option>
+              <option value="Red">Red</option>
+              <option value="Yellow">Yellow</option>
+              <option value="Violet">Violet</option>
+              <option value="White">White</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div id = "middle">
+          <span id = "agespan">Age:&nbsp; &nbsp;<input type="age" name ="age" id="age"></span>
+          Catalog Number: &nbsp;<input type="catalogId" name ="catalogId" id="catalogId">
+        </div>
+        <br>
+        Keywords:<br>
+        <input type="keyword1" name ="keyword1" id="keyword1">
+        <input type="keyword2" name ="keyword2" id="keyword2">
+        <input type="keyword3" name ="keyword3" id="keyword3">
+      </div>
+    	<div class = "col-md-6">
+        <label for="description">Description:</label>
+        <textarea class="form-control" rows="5" id="description"></textarea>
+      </div>
+    </div>
+    <div class="container">
+      <button type="button" class="btn btn-info btn-block" id="submit">Submit Your Collectible</button>
+
+    </div>
+    <table class = "table table-bordered" align="center" id = "table">
+        <tr>
+          <th>Catalog ID</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Type</th>
+          <th>Age</th>
+          <th>Color</th>
+          <th>Keywords</th>
+        <tr>
+      <table>
+      <div class="container">
+        <button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#myModal">Update Item</button>
+
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Modal Header</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Some text in the modal.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+  </body>
+</html>

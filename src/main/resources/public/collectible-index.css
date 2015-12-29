@@ -1,0 +1,54 @@
+#add {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#top {
+  overflow: auto;
+}
+#table{
+  max-width: 95%;
+  margin: 10px 2.5% 0 2.5%;
+}
+
+#type {
+  margin-right: 45px;
+}
+
+#color {
+  margin-right: 45px;
+  padding-right: 45px;
+}
+
+h1 {
+  text-align:center;
+  margin-bottom: 25px;
+}
+
+#keyword1, #keyword2, #keyword3 {
+  margin: auto;
+}
+
+#agespan {
+  padding-right: 15px;
+  margin-right: 17px;
+}
+
+#middle {
+  margin-bottom: -5px;
+
+}
+
+#submit {
+  margin-top: 10px;
+}
+
+#name {
+  padding-right: 55%;
+  margin-bottom: 15px;
+}
+
+#middle_top {
+  margin-bottom: -5px;
+  padding:0px;
+}
