@@ -26,7 +26,7 @@ public class SettingsConfig {
 	public static final String DATABASE_LOGIN_PASSWORD = "";
 
 	/* Database reference settings */
-	public static final String DATABASE_NAME = "xmencollector";
+	public static final String DATABASE_NAME = "xmenother";
 	public static final String DATABASE_SCHEMA = "itemschema";
 
 	/* Database connection settings */
