@@ -45,17 +45,17 @@ public class BootStrapConfig {
 		colors.add(purple);
 		
  		Color green = new Color();
-		green.setName("green");
+		green.setName("brown");
 		bootStrapData.save(green);
 		colors.add(green);
 
 		Color red = new Color();
-		red.setName("red");
+		red.setName("blue");
 		bootStrapData.save(red);
 		colors.add(red);
 		
 		Color black = new Color();
-		black.setName("black");
+		black.setName("yellow");
 		bootStrapData.save(black);
 		colors.add(black);
 		
