@@ -104,12 +104,12 @@ public class BootStrapConfig {
 		conditions.add(mint);
 		
 		Condition slightlyUsed = new Condition();
-		slightlyUsed.setName("slightly used");
+		slightlyUsed.setName("new");
 		bootStrapData.save(slightlyUsed);
 		conditions.add(slightlyUsed);
 
 		Condition poor = new Condition();
-		poor.setName("poor");
+		poor.setName("used");
 		bootStrapData.save(poor);
 		conditions.add(poor);
 		
